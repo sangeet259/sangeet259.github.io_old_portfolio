@@ -31,10 +31,19 @@ body {
   background: #ccc;
 }
 #navbar{
-  margin-top: 10px;
+
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
   justify-content: space-around;
+  box-shadow: 
   
 }
+
+
+
+
+
  
 #navbar ul {
   list-style: none;
@@ -62,8 +71,8 @@ body {
   background-color: #005f5f;
 }
  
-#navbar a.active {
-  background-color: #fff;
+#navbar a:active {
+  background-color: red;
   color: #444;
   cursor: default;
 }
@@ -77,25 +86,10 @@ body {
     font-size: 1.4em;
   }
  
-  /* Option 1 - Display Inline */
   #navbar li {
     display: inline-block;
     margin-right: -4px;
   }
- 
-   Options 2 - Float
-/*  #navbar li {
-    float: left;
-  }
-  #navbar ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  #navbar {
-    background-color: #444;
-  }
-  */
 }
 .info_section {
   font-family: 'BioRhyme', serif;
@@ -103,11 +97,13 @@ body {
 
 .achievements_section {
   padding: 10px;
-  margin-top: 100px;
   position: relative;
   height: auto;
   border: 5px solid #eee;
+  width: 90%;
+  margin: auto;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 5%;
 }
 
 .intersts_section {
@@ -116,7 +112,10 @@ body {
   position: relative;
   height: auto;
   border: 5px solid khaki;
+  width: 90%;
+  margin: auto;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 15%;
 }
 
 .hobbies_section {
@@ -126,6 +125,10 @@ body {
   height: auto;
   border: 5px solid tomato;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  margin: auto;
+margin-top: 15%;
+margin-bottom: 2%;
 }
 
 #header1 {
@@ -164,4 +167,47 @@ body {
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;;
+}
+
+
+.shadow8{
+  position:relative;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow8{
+  box-shadow:
+ -6px -6px 8px -4px rgba(250,254,118,0.75),
+  6px -6px 8px -4px rgba(254,159,50,0.75),
+  6px 6px 8px -4px rgba(255,255,0,0.75),
+  6px 6px 8px -4px rgba(0,0,255,2.75);
+}
+
+.shadow5{
+  position:relative;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow5{
+  box-shadow:
+ -6px -6px 8px -4px rgba(250,254,118,0.75),
+  6px -6px 8px -4px rgba(254,159,50,0.75),
+  6px 6px 8px -4px rgba(255,255,0,0.75),
+  6px 6px 8px -4px rgba(0,0,255,2.75);
+}
+
+
+.shadow5:before, .shadow5:after{
+  position:absolute;
+  box-shadow:0 10px 25px 20px #518C96;
+  top:40px;left:10px;bottom:50px;
+  width:15%;
+  z-index:-1;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.shadow5:after{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;left: auto;
 }
