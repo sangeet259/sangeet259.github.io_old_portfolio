@@ -3,6 +3,7 @@ body {
   height: 100%;
 	margin: 0;
   padding: 0;
+  background-attachment: fixed;
 }
 @import url('https://fonts.googleapis.com/css?family=Cormorant');
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
@@ -41,6 +42,7 @@ body {
   box-shadow: 
   font-family: 'Eczar', serif;
   font-weight: 800;
+  border-bottom-style: solid;
 }
 
 
@@ -141,6 +143,7 @@ margin-bottom: 2%;
 #header1 {
   background-color: violet;
   font-family: 'Nixie One', cursive;
+  font-weight: 900;
   text-align: center;
   font-size: 50px;
   color : wheat;
@@ -177,11 +180,11 @@ margin-bottom: 2%;
 }
 
 
-.shadow8{
+.shadow1{
   position:relative;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
 }
-.shadow8{
+.shadow1{
   box-shadow:
  -6px -6px 8px -4px rgba(250,254,118,0.75),
   6px -6px 8px -4px rgba(254,159,50,0.75),
@@ -189,11 +192,11 @@ margin-bottom: 2%;
   6px 6px 8px -4px rgba(0,0,255,2.75);
 }
 
-.shadow5{
+.shadow2{
   position:relative;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
 }
-.shadow5{
+.shadow2{
   box-shadow:
  -6px -6px 8px -4px rgba(250,254,118,0.75),
   6px -6px 8px -4px rgba(254,159,50,0.75),
@@ -202,7 +205,7 @@ margin-bottom: 2%;
 }
 
 
-.shadow5:before, .shadow5:after{
+.shadow2:before, .shadow2:after{
   position:absolute;
   box-shadow:0 10px 25px 20px #518C96;
   top:40px;left:10px;bottom:50px;
@@ -212,7 +215,38 @@ margin-bottom: 2%;
   -moz-transform: rotate(-8deg);
   transform: rotate(-8deg);
 }
-.shadow5:after{
+.shadow2:after{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;left: auto;
+}
+
+
+.shadow3{
+  position:relative;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow3{
+  box-shadow:
+ -6px -6px 8px -4px rgba(0,4,11,0.75),
+  6px -6px 8px -4px rgba(254,159,50,0.75),
+  6px 6px 8px -4px rgba(255,25,0,0.75),
+  6px 6px 8px -4px rgba(0,0,25,2.75);
+}
+
+
+.shadow3:before, .shadow3:after{
+  position:absolute;
+  box-shadow:0 10px 25px 20px #518C96;
+  top:40px;left:10px;bottom:50px;
+  width:15%;
+  z-index:-1;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.shadow3:after{
   -webkit-transform: rotate(8deg);
   -moz-transform: rotate(8deg);
   transform: rotate(8deg);

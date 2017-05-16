@@ -6,6 +6,8 @@ body, html {
   background-color: darkgray;
 }
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Eczar');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 @font-face {
   font-family: 'Sofia';
   font-style: normal;
@@ -57,8 +59,10 @@ body, html {
   left: 0;
   top: 50%;
   width: 100%;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
   text-align: center;
-  color: #000;
+  color:black;
 }
 
 .caption span.border {
