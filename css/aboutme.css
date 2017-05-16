@@ -8,6 +8,8 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 @import url('https://fonts.googleapis.com/css?family=Eczar');
 @import url('https://fonts.googleapis.com/css?family=BioRhyme');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Eczar');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
 #container {
 	width: auto;
 	height: auto;
@@ -37,7 +39,8 @@ body {
   margin-top: 1%;
   justify-content: space-around;
   box-shadow: 
-  
+  font-family: 'Eczar', serif;
+  font-weight: 800;
 }
 
 
@@ -46,14 +49,16 @@ body {
 
  
 #navbar ul {
+  font-family: 'Eczar', serif;
+  font-weight: 800;
   list-style: none;
-  background-color: #444;
   text-align: center;
   padding: 0;
   margin: 0;
 }
 #navbar li {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Eczar', serif;
+  font-weight: 800;
   font-size: 1.2em;
   line-height: 40px;
   height: 40px;
@@ -61,6 +66,8 @@ body {
 }
  
 #navbar a {
+  font-family: 'Eczar', serif;
+  font-weight: 800;
   text-decoration: none;
   color: #fff;
   display: block;
@@ -68,7 +75,7 @@ body {
 }
  
 #navbar a:hover {
-  background-color: #005f5f;
+  background-color: tomato;
 }
  
 #navbar a:active {
@@ -133,7 +140,7 @@ margin-bottom: 2%;
 
 #header1 {
   background-color: violet;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Nixie One', cursive;
   text-align: center;
   font-size: 50px;
   color : wheat;
