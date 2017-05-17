@@ -7,7 +7,7 @@ body, html {
 }
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Eczar');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
 @font-face {
   font-family: 'Sofia';
   font-style: normal;
@@ -62,7 +62,6 @@ body, html {
   font-family: 'Lobster', cursive;
   font-weight: bold;
   text-align: center;
-  color:black;
 }
 
 .caption span.border {
