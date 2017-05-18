@@ -152,10 +152,10 @@ blockquote::after{
 }
 
 .social .link:hover {
-  padding: 20px;
-  color: white;
-  margin-left: -5px;
-  transform: translateX(10px);
+  
+  
+  
+  
 }
 
 .social .link.google-plus {
