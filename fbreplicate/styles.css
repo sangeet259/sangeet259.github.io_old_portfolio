@@ -30,15 +30,15 @@ body{
 
 .login {
 
-	position: absolute;
+	position: relative;
 	display: -webkit-inline-flex;
 	display: -moz-inline-flex;
 	display: -ms-inline-flex;
 	display: -o-inline-flex;
 	display: inline-flex;
 	border: 4px dotted black;
-	float: right;
-	right: 0%;
+	/* float: right; */
+	left:  150px;
 	height: 12%;
 	margin: auto;
 }
