@@ -1,0 +1,249 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+
+html{
+  height: 100%;
+}
+
+
+
+body{
+  min-height: 100%;
+}
+
+
+
+#grad {
+  background: whitesmoke; 
+  background: -webkit-linear-gradient(bottom,rgba(255,0,0,0),rgba(255,0,0,1));
+  background: -o-linear-gradient(bottom,rgba(255,0,0,0),rgba(255,0,0,1));
+  background: -moz-linear-gradient(bottom,rgba(255,0,0,0),rgba(255,0,0,1));
+  background: linear-gradient(to bottom, rgb(255,255,255),rgb(212,217,233));
+}
+
+
+
+
+.header {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	/*border: 2px dotted greenyellow;*/
+	
+	height: 15%;
+	/* background-color: #3B5998; */
+	background-color: #3B5998; 
+    background: -moz-linear-gradient(top, #3b5998, #2b4170);
+    background: -ms-linear-gradient(top, #3b5998, #2b4170);
+    background: -webkit-linear-gradient(top, #3b5998, #2b4170);
+	min-width: 1200px;
+	height: 4px;
+}
+
+
+.login {
+
+	position: relative;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	/*border: 4px dotted white;*/
+	left:  150px;
+	height: 15	%;
+	margin: auto;
+
+}
+#loginbtn {
+	border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: top;
+    white-space: nowrap;
+    color: white;
+}
+
+.logo {
+	width: 15%;
+	margin-left: 12.2%;
+	/*border: 2px dashed red;*/
+}
+
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+.
+
+
+.login table1 {
+	max-width: 100%;
+	margin: 0 auto;
+	min-width: 100px;
+	height: 10%;
+
+}
+
+.main_body {
+	/*border: 2px dashed yellow;*/
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	width: 100%;
+}
+
+.left {
+	/*border: 4px dashed violet;*/
+	margin-left: 12%;
+	margin-top: 2%;
+}
+.left .world_img {
+}
+
+.right {
+	position: relative;
+	margin-left: 5%;
+	/*border : 2px dashed blue;*/
+	padding: 10px;
+}
+.row1 {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	
+}
+/* .row input {
+	line-height: 45px;
+
+} */
+.rest {
+	width: 100%;
+}
+.email {
+	width: 9%;
+	margin-top: 15px;
+}
+.entry
+{
+	font-size: 18px;
+    padding: 8px 10px;
+   	/*border: 1px solid #bdc7d8;*/
+    border-radius: 5px;
+    margin: 0;
+    /* width: 377px; */
+}
+.quote {
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.firstname
+{
+	width:33%;
+}
+.lastname
+{
+	width:33%;
+	margin-left: 2%;
+}
+.email{
+	width: 72%;
+}
+.password {
+	width: 72%;
+}
+.row1 p {
+	line-height: 150%;
+}
+.TnC {
+	width:399px;
+	font-size: 11px;
+	margin-top: 5%;
+	color:#777;
+}
+.label {
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+}
+.creat_accnt_btn {
+	font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+	    font-size: 19px;
+	    line-height: 24px;
+	    font-weight: bold;
+	    margin-top: 10px;
+        margin-bottom: 10px;
+        min-width: 194px;
+        padding: 7px 20px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        position: relative;
+        background: linear-gradient(#67ae55, #578843);
+        box-shadow: inset 0 1px 1px #a4e388;
+        border-color: #3b6e22 #3b6e22 #2c5115;
+}
+#creat_page{
+	border-top: 1px solid #dddfe2;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.footer {
+	/*border: 3px dashed red;*/
+	background-color: #fff;
+	min-width: 1200px;
+	height: 80px;
+}
+
+.footer .ft_content #langs li{
+	display:inline;
+	font-size: 12px;
+}
+.ft_content {
+
+	width: 60%;
+	height: 70px;
+	margin: 0 auto;
+	/*border: 6px dotted black;*/
+}
+.footer .ft_content #langs a {
+	text-decoration: none;
+}
+.footer .ft_content #langs {
+	padding-left: 2px;
+	padding-right: 3px;
+}
+#more_langs{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
