@@ -151,6 +151,9 @@ body{
     border-radius: 5px;
     margin: 0;
     /* width: 377px; */
+    width: 35%;
+	box-sizing: border-box;
+    border: 1px solid #bdc7d8;
 }
 .quote {
 	color: #0e385f;
@@ -163,11 +166,11 @@ body{
 }
 .firstname
 {
-	width:33%;
+	width:35%;
 }
 .lastname
 {
-	width:33%;
+	width:35%;
 	margin-left: 2%;
 }
 .email{
