@@ -1,3 +1,7 @@
+a {
+	text-decoration: none;
+}
+
 html, body{
   padding: 0;
   margin: 0;
@@ -77,6 +81,14 @@ body{
     vertical-align: top;
     white-space: nowrap;
     color: white;
+} 
+#loginbtn {
+background-color: #4267b2;
+    border-color: #29487d;
+}
+#loginbtn:hover
+{
+	background-color: #3b5998;
 }
 
 .logo {
